@@ -1,33 +1,32 @@
 {
   "name": "lab3-js-oop-dice-docs-and-design",
-  "version": "0.1.0",
-  "description": "A dice simulation demonstrating JS OOP, dependency injection, and
-  quality practices",
+  "version": "0.2.0",
+  "description": "A dice simulation demonstrating JS OOP, dependency injection, and quality practices",
   "type": "module",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Tests will be added in Step 2\"",
-  "lint": "echo \"Linting will be configured in Step 3\"",
-  "format": "echo \"Formatting will be configured in Step 3\"",
-  "docs": "echo \"Documentation generation will be configured in Step 3\""
+    "test": "node --test test/**/*.test.js",
+    "test:watch": "node --test --watch test/**/*.test.js",
+    "lint": "echo \"Linting will be configured in Step 3\"",
+    "format": "echo \"Formatting will be configured in Step 3\"",
+    "docs": "echo \"Documentation generation will be configured in Step 3\""
   },
   "keywords": [
-  "dice",
-  "simulation",
-  "oop",
-  "javascript",
-  "testing",
-  "documentation"
+    "dice",
+    "simulation",
+    "oop",
+    "javascript",
+    "testing",
+    "documentation"
   ],
-  "author": "Francis Ortiz",
+  "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^9.35.0",
     "jsdoc": "^4.0.4",
     "prettier": "^3.6.2"
-    },
-    "engines": {
+  },
+  "engines": {
     "node": ">=18.0.0"
-    }
-    }
-  
+  }
+}
